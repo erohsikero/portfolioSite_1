@@ -15,6 +15,7 @@ import {
   Star,
   Trophy,
   Database,
+  Linkedin,
 } from 'lucide-react';
 
 function useTypingAnimation(
@@ -89,7 +90,7 @@ function App() {
 
   const titles = [
     'Code Wizard 🧙‍♂️',
-    'Bug Hunter 🐛',
+    // 'Bug Bounty Hunter 🐛',
     'Cloud Architect ☁️',
     'Problem Solver 🔧',
     'Coffee Consumer ☕',
@@ -139,20 +140,28 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              <a
+              {/* <a
                 href="mailto:dev.kishoresuresh@gmail.com"
                 className="flex items-center gap-2 hover:text-white transform hover:scale-105 transition-all"
               >
                 <Mail size={20} /> dev.kishoresuresh@gmail.com
+              </a> */}
+              <a
+                href="https://github.com/erohsikero"
+                className="flex items-center gap-2 hover:text-white transform hover:scale-105 transition-all"
+                target="_blank" rel="noopener noreferrer"
+              >
+                <Github size={20} /> ErohsikEro
               </a>
               <a
-                href="https://github.com/kishore-suresh"
+                href="https://www.linkedin.com/in/kishore-suresh/"
                 className="flex items-center gap-2 hover:text-white transform hover:scale-105 transition-all"
+                target="_blank" rel="noopener noreferrer"
               >
-                <Github size={20} /> kishore-suresh
+                <Linkedin size={20} /> Kishore-Suresh
               </a>
               <span className="flex items-center gap-2">
-                <MapPin size={20} /> Kitchener, Ontario, Canada
+                <MapPin size={20} /> Canada
               </span>
             </motion.div>
           </div>
@@ -362,12 +371,16 @@ function App() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
+                // '🏆 Winner - HACK & TACKLE 1.0 24hrs Hackathon, SSN College of Engineering, Chennai',
+                // '🏆 Winner - VISAI 19 International Project Competition,Vel Tech Institute of Science and Technology, Chennai',
+                // '🥈 Runner-up - MOZOHACK 24-hour Hackathon, SRM Institute of Science and Technology, Chennai',
+                // '🥈 Runner-up - VIVID 19 National Level Project Competition,SSN College of Engineering, Chennai',
+                // '🎖️ Honorable Mention - IEEE YESIST 12 Innovation Challenge,Thailand',
                 '🏆 Winner - HACK & TACKLE 1.0 24hrs Hackathon',
-                '🌟 Winner - VISAI 19 International Project Competition',
+                '🏆 Winner - VISAI 19 International Project Competition',
                 '🥈 Runner-up - MOZOHACK 24-hour Hackathon',
-                '🎯 Runner-up - VIVID 19 National Level Project Competition',
-                '🎖️ Honorable Mention - IEEE YESIST 12 Innovation Challenge',
-                '📝 Letter of Appreciation - College Prospectus Design',
+                '🥈 Runner-up - VIVID 19 National Level Project Competition',
+                '🎖️ Honorable Mention - IEEE YESIST 12 Innovation Challenge, Thailand',
               ].map((award, index) => (
                 <motion.div
                   key={index}
