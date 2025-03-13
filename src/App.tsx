@@ -16,6 +16,7 @@ import {
   Trophy,
   Database,
   Linkedin,
+  Heart,
 } from 'lucide-react';
 
 function useTypingAnimation(
@@ -407,8 +408,8 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Made with <Coffee className="inline-block text-red-400" /> by
-            Kishore Suresh © 2024
+            Made with AI , <Coffee className="inline-block text-red-400" /> & <Heart className="inline-block text-red-400" /> by
+            Kishore Suresh
           </motion.p>
         </div>
       </footer>

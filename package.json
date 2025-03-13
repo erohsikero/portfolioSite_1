@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://kishoresuresh.com/",
   "scripts": {
-    "predeploy" : "npm run build",
+    "predeploy" : "npm run build && cp CNAME build/CNAME",
     "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
