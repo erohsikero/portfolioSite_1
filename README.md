@@ -1,7 +1,3 @@
-Here’s a flashy and impressive README.md you can use for your portfolioSite_1 repo. It highlights your work, provides a live demo link, and has some stylish badges and sections to impress visitors:
-
----
-
 # 🚀 Kishore Suresh's Portfolio Site
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fkishoresuresh.com&style=flat-square&logo=google-chrome)](https://kishoresuresh.com)
@@ -84,7 +80,3 @@ Pull requests and suggestions are always welcome.
 ## 📜 License
 
 This project is open source under the [MIT License](LICENSE).
-
----
-
-Let me know if you want this customized further or want me to add details about your tech stack or projects!
